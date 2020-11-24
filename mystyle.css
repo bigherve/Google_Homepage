@@ -1,89 +1,73 @@
-.container {
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
     font-family: arial, sans-serif;
-    background-color: #fff;
-    text-align: center;
-    width: 100%;
-    height: auto;
-    padding-top: 125px;
-    margin: auto;
+    list-style-type: none;
 }
 
-p {
-    font-size: 10px;
+.container {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    height: 1250px;
+    min-width: 355px;
 }
 
 .topbar {
-    text-align: right;
-    font-size: 15px;
-    top: 0;
-}
-
-.googllogo {
-    display: block;
-    padding-top: 110px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
-
-a.top {
+    flex: 0 0 auto;
     color: rgba(0, 0, 0, 0.87);
     font-size: 13px;
-    text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
 }
 
-a.bottom {
-    color: #70757a;
-    font-size: 10px;
+.topbar>ul>li {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.topbar ul {
+    line-height: 24px;
+    padding: 16px 30px;
+    display: flex;
+    align-items: center;
+}
+
+a.top {}
+
+a {
     text-decoration: none;
-    padding: 5px;
+    color: inherit;
 }
 
 a:hover {
     text-decoration: underline;
 }
 
-input {
-    width: 400px;
-    height: 30px;
-    margin-bottom: 15px;
-}
+main {}
 
-button {
-    background-color: #f2f2f2;
-    border: none;
-    padding: 10px;
-    margin: 10px;
-    color: #757575;
-    font-size: 10pt;
-    font-weight: bold;
-    border-radius: 2px;
-}
+.googllogo {}
 
-.buttons {
-    margin-bottom: 60px;
-}
+.searcbar {}
 
-button:hover {
-    color: #000;
-    border: 1px #aaa;
-}
+form {}
 
-.footer {
-    bottom: 0;
-    background-color: #f2f2f2;
-    color: #757575;
-    padding: 5px;
-    position: fixed;
-    width: 100%;
-    left: -5px;
-    font-size: 14px;
-}
+input {}
 
-.footer-left {
-    text-align: left;
-}
+button {}
 
-.footer-right {
-    text-align: right;
-}
+.buttons {}
+
+button:hover {}
+
+footer li {}
+
+footer ul {}
+
+.footer-left li {}
+
+.footer-right li {}
+
+a.bottom {}
