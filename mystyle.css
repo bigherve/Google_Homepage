@@ -1,4 +1,5 @@
-* {
+    * {
+    background-color: #fff;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -7,7 +8,6 @@
 }
 
 .container {
-    background-color: #fff;
     display: flex;
     flex-direction: column;
     height: 1250px;
@@ -46,28 +46,46 @@ a:hover {
     text-decoration: underline;
 }
 
-main {}
+main {
+    flex: 1 0 auto;
+    width: 100vw;
+    min-width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
 
-.googllogo {}
+.googllogo {
+    margin-top: 135px;
+    transition-duration: 0.5s;
+}
 
-.searcbar {}
+#pic {
+    width: 100%;
+    display: inline-block;
+    margin-right: auto;
+    margin-left: auto;
+}
 
 form {}
 
-input {}
+#input {}
 
-button {}
+.searcbar {}
 
-.buttons {}
-
-button:hover {}
-
-footer li {}
-
-footer ul {}
-
-.footer-left li {}
-
-.footer-right li {}
-
-a.bottom {}
+button {
+    .buttons {}
+    button:hover {}
+    .offred {}
+    footer {}
+    .feet {
+        ;
+    }
+    .pays {}
+    .p2 {}
+    footer li {}
+    footer ul {}
+    .footer-left li {}
+    .footer-right {}
+    a.bottom {}
