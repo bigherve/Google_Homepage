@@ -1,1 +1,73 @@
-        * {}
+        html {
+            height: 100%;
+            min-height: 100%;
+        }
+        
+        img.img1 {
+            width: 30px;
+            height: 30px;
+        }
+        
+        a {
+            text-decoration: none;
+            color: rgba(0, 0, 0, 0.87);
+            font-family: Arial, sans-serif;
+            font-size: 15px;
+        }
+        
+        #topbar {
+            display: grid;
+            grid-template-columns: 1fr 50px 50px 50px 50px;
+            grid-template-rows: 50px;
+            grid-template-areas: '. mail images apps login';
+        }
+        
+        #mail {
+            grid-area: mail;
+            justify-self: center;
+            align-self: center;
+        }
+        
+        #images {
+            grid-area: images;
+            justify-self: center;
+            align-self: center;
+        }
+        
+        #apps {
+            grid-area: apps;
+            justify-self: center;
+            align-self: center;
+        }
+        
+        #login {
+            grid-area: login;
+            justify-self: center;
+            align-self: center;
+        }
+        
+        #fuckme {
+            display: grid;
+            min-height: 100%;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 200px 70px 70px 200px;
+            grid-template-areas: ". logo ." ". search ." ". btn ." ". offred .";
+        }
+        
+        #logo {
+            grid-area: logo;
+        }
+        
+        #search {
+            grid-area: search;
+        }
+        
+        #btn {
+            grid-area: btn;
+        }
+        
+        #offred {
+            grid-area: offred;
+        }
+        
+        #bottomfeeder {}
